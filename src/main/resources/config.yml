@@ -1,0 +1,9 @@
+#look at the formating for the simple date formater for how to set the format
+log-time-format: "dd-M-yyyy hh:mm:ss"
+log-format: "[%s]: %s"
+# to enable the events to be registered in the logs
+loggers:
+  commands: true
+  anvils: false
+  signs: false
+  msg: false
